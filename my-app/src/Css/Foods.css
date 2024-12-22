@@ -1,0 +1,53 @@
+.card {
+
+    margin: 16px;
+
+  }
+
+  
+  .foods-container {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+  }
+  
+  .category-section {
+    margin-bottom: 2px;
+  }
+  
+  .category-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px 0;
+  }
+  
+  .foods-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-top: 5px solid gray;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

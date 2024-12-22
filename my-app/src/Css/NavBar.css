@@ -1,0 +1,81 @@
+.navbar {
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b3b3b; /* Light black background */
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+    z-index: 100;
+  }
+  
+  .navbar-left {
+    margin-right: 40px;
+    background-color: #3b3b3b;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #9dff00;
+    background-color: #3b3b3b;
+    width: 100%;
+  }
+  
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #3b3b3b;
+    gap: 20px;
+  }
+  
+  .navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #3b3b3b;
+    gap: 10px;
+    padding-right: 40px;
+  }
+  
+  .nav-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #3b3b3b;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .transparent-button {
+    background-color: #3b3b3b;
+    color: white;
+  }
+  
+  .transparent-button:hover {
+    background-color: #9dff00;
+    color: #2b2b2b;
+    border-radius: 5px;
+  }
+  
+  .white-button {
+    background-color: #9dff00;
+    color: black;
+    border: 1px solid #222222;
+    border-radius: 5px;
+  }
+  
+  .white-button:hover {
+    background-color: #000000;
+    border-color: #9dff00;
+    color: white;
+
+  }
